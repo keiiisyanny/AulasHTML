@@ -1,0 +1,36 @@
+*{
+margin: 0px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #D45DD9 ;
+    background-color:#FA8295 ;
+    height: 100px;
+    align-items: center;
+}
+#pesquisa{
+    border: 2px solid #AD73F0;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 5px;
+
+}
+#bt_Pesquisar{
+    border: 1px solid #AD73F0;
+    height: 20px;
+    border-radius: 15px;
+    padding-left: 5px;
+    cursor: pointer;
+
+}
+#bt_pesquisar:hover{
+    background-color: #5D61D9;
+    border: 1px solid #FA8295;
+
+}
+#Configurações{
+    height: 30px;
+
+}
